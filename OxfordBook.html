@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University of Oxford</title>
+        <link rel="stylesheet" type="text/css" href="tampilan oxford.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+</html>
+
+<body bgcolor="white">
+    <header>
+        <div class="uni"><img src="image/uni of ox.jfif" width="150px" height="70px" style="float: left;"></div>
+        <div class="homepage">WEATHER AND CLIMATE</div>
+    </header>
+
+
+    <nav>
+        <div class="menu-bar">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li id="menu-products">
+            <button onclick="myFunction()" class="dropbtn">About ▼</button>
+            <ul id="dropdown-products">
+                <div id="myDropdown" class="dropdown-content">
+              <li><a href="OrganisationsOxClar.html">Organisation</a></li>
+              <li><a href="牛津大学Clar.html">牛津大学</a></li>
+              <li><a href="InternationalOxfordClar.html">International Oxford</a></li>
+            </div>
+            </ul>
+          </li>
+          <li><a href="ResearchClar.html">Research</a></li>
+        </ul>
+        </div>
+      </nav>
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    </script>
+<div class="el"><img src="image/shire.jpg"></div>
+<div id="">
+<div class="org">Oxford Weather and Climate since 1767</div>
+<div class="naur">Weather observations have been made at the Radcliffe Observatory in Oxford since 1772, and continue to this day, the longest meteorological record in the British Isles and one of the longest in the world. This new book by Stephen Burt and Tim Burt sees the first publication of this newly digitised record of English weather. Monthly and seasonal weather patterns and extremes across two centuries are brought to life by expert analysis with the help of local documentary sources and contemporary photographs, while detailed monthly and annual summary tables of rainfall (from 1767), temperature (from 1813) and sunshine (from 1880) are included up to 2018.</div>
+<div class="line"></div>
+<div class="nose">The book is available from Oxford University Press bookshops and online, and from all good booksellers.</div>
+
+<div class="nose">Oxford University Press, May 2019</div>
+
+<div class="nose">Hardback, 544 Pages, 246 x 171 mm</div>
+
+<div class="nose">ISBN: 9780198834632</div>
+
+</div>
+<div class="inv">.</div>
+
+<footer>
+  <div class="rama">CONNECT WITH US</div>
+  <div class="mam">
+      <a href="https://www.youtube.com/@oxforduniversity"><img src="image/yt.png" width="40px" height="40px"></a></div>
+  <div class="mam">
+      <a href="https://www.instagram.com/oxford_uni/"><img src="image/ig.jfif" width="40px" height="40px"></a></div>
+  <p>&copy; 2024 - University of Oxford</p>
+</footer>

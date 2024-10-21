@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University of Oxford</title>
+        <link rel="stylesheet" type="text/css" href="tampilan oxford.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+</html>
+
+<body bgcolor="white">
+    <header>
+        <div class="uni"><img src="image/uni of ox.jfif" width="150px" height="70px" style="float: left;"></div>
+        <div class="homepage">牛津大学</div>
+    </header>
+
+
+    <nav>
+        <div class="menu-bar">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li id="menu-products">
+            <button onclick="myFunction()" class="dropbtn">About ▼</button>
+            <ul id="dropdown-products">
+                <div id="myDropdown" class="dropdown-content">
+              <li><a href="OrganisationsOxClar.html">Organisation</a></li>
+              <li><a href="牛津大学Clar.html">牛津大学</a></li>
+              <li><a href="InternationalOxfordClar.html">International Oxford</a></li>
+            </div>
+            </ul>
+          </li>
+          <li><a href="ResearchClar.html">Research</a></li>
+        </ul>
+        </div>
+      </nav>
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    </script>
+<div class="el"><img src="image/japan.jpg"></div>
+<div id="">
+<div class="org">牛津大学</div>
+<div class="naur">作为世界闻名的顶尖学府，牛津大学在过去数百年间里一直以其在教育、科研、医药、数学、经济及历史等各领域所取得的卓越成就而著称。</div>
+<div class="line"></div>
+<div class="nose">如今，牛津大学拥有约250项本科课程，以及超过300项研究生课程，其吸引了超过两万两千名学生在此就读。其中，约百分之四十的牛津学生来自世界各地。</div>
+
+<div class="nose">牛津大学是英国最大的科研中心。学校在世界顶尖刊物刊发的科研学术报告超过英国任何其他大学。同时，牛津大学也是全英拥有科研专利最多的学术机构，其下公司超过百余家。目前，牛津地区的一千五百多家高科技企业中，多数都与学校有着深度合作。</div>
+
+<div class="inv">.</div>
+
+<footer>
+  <div class="rama">CONNECT WITH US</div>
+  <div class="mam">
+      <a href="https://www.youtube.com/@oxforduniversity"><img src="image/yt.png" width="40px" height="40px"></a></div>
+  <div class="mam">
+      <a href="https://www.instagram.com/oxford_uni/"><img src="image/ig.jfif" width="40px" height="40px"></a></div>
+  <p>&copy; 2024 - University of Oxford</p>
+</footer>
